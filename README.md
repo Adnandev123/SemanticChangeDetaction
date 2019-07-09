@@ -1,6 +1,10 @@
 Pre-Req:
 ==================
+
+Download and install using the instructions.
+
 Fasttext: https://github.com/facebookresearch/fastText
+
 MUSE: https://github.com/facebookresearch/MUSE
 
 
