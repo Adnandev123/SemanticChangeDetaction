@@ -1,0 +1,166 @@
+INFO - 07/09/19 03:02:36 - 0:00:00 - ============ Initialized logger ============
+INFO - 07/09/19 03:02:36 - 0:00:00 - cuda: False
+                                     dico_build: S2T&T2S
+                                     dico_eval: dictionary.txt
+                                     dico_max_rank: 10000
+                                     dico_max_size: 0
+                                     dico_method: csls_knn_10
+                                     dico_min_size: 0
+                                     dico_threshold: 0
+                                     dico_train: dictionary.txt
+                                     emb_dim: 100
+                                     exp_id: 
+                                     exp_name: debug
+                                     exp_path: /mount/arbeitsdaten31/studenten1/R-Project/fl/SCD/semanticChangeWordEmbedding/MUSE/MUSE/dumped/debug/czijjvdf28
+                                     export: txt
+                                     max_vocab: 200000
+                                     n_refinement: 5
+                                     normalize_embeddings: 
+                                     seed: -1
+                                     src_emb: t1.bin
+                                     src_lang: 17
+                                     tgt_emb: t2.bin
+                                     tgt_lang: 18
+                                     verbose: 2
+INFO - 07/09/19 03:02:36 - 0:00:00 - The experiment will be stored in /mount/arbeitsdaten31/studenten1/R-Project/fl/SCD/semanticChangeWordEmbedding/MUSE/MUSE/dumped/debug/czijjvdf28
+INFO - 07/09/19 03:02:37 - 0:00:01 - Loaded binary model. Generating embeddings ...
+INFO - 07/09/19 03:02:37 - 0:00:01 - Generated embeddings for 2454 words.
+INFO - 07/09/19 03:02:39 - 0:00:02 - Loaded binary model. Generating embeddings ...
+INFO - 07/09/19 03:02:39 - 0:00:02 - Generated embeddings for 1658 words.
+INFO - 07/09/19 03:02:39 - 0:00:03 - Found 77 pairs of words in the dictionary (77 unique). 52 other pairs contained at least one unknown word (48 in lang1, 50 in lang2)
+INFO - 07/09/19 03:02:39 - 0:00:03 - Validation metric: precision_at_1-csls_knn_10
+INFO - 07/09/19 03:02:39 - 0:00:03 - Starting iteration 0...
+INFO - 07/09/19 03:02:39 - 0:00:03 - Found 77 pairs of words in the dictionary (77 unique). 52 other pairs contained at least one unknown word (48 in lang1, 50 in lang2)
+INFO - 07/09/19 03:02:39 - 0:00:03 - 77 source words - nn - Precision at k = 1: 6.493506
+INFO - 07/09/19 03:02:39 - 0:00:03 - 77 source words - nn - Precision at k = 5: 12.987013
+INFO - 07/09/19 03:02:39 - 0:00:03 - 77 source words - nn - Precision at k = 10: 14.285714
+INFO - 07/09/19 03:02:39 - 0:00:03 - Found 77 pairs of words in the dictionary (77 unique). 52 other pairs contained at least one unknown word (48 in lang1, 50 in lang2)
+INFO - 07/09/19 03:02:40 - 0:00:04 - 77 source words - csls_knn_10 - Precision at k = 1: 7.792208
+INFO - 07/09/19 03:02:40 - 0:00:04 - 77 source words - csls_knn_10 - Precision at k = 5: 14.285714
+INFO - 07/09/19 03:02:40 - 0:00:04 - 77 source words - csls_knn_10 - Precision at k = 10: 15.584416
+INFO - 07/09/19 03:02:41 - 0:00:05 - Building the train dictionary ...
+INFO - 07/09/19 03:02:41 - 0:00:05 - New train dictionary of 2454 pairs.
+INFO - 07/09/19 03:02:41 - 0:00:05 - Mean cosine (nn method, S2T build, 10000 max size): 0.98482
+INFO - 07/09/19 03:02:45 - 0:00:09 - Building the train dictionary ...
+INFO - 07/09/19 03:02:45 - 0:00:09 - New train dictionary of 2454 pairs.
+INFO - 07/09/19 03:02:45 - 0:00:09 - Mean cosine (csls_knn_10 method, S2T build, 10000 max size): 0.98477
+INFO - 07/09/19 03:02:45 - 0:00:09 - __log__:{"n_iter": 0, "precision_at_1-nn": 6.493506493506493, "precision_at_5-nn": 12.987012987012985, "precision_at_10-nn": 14.285714285714285, "precision_at_1-csls_knn_10": 7.792207792207792, "precision_at_5-csls_knn_10": 14.285714285714285, "precision_at_10-csls_knn_10": 15.584415584415584, "mean_cosine-nn-S2T-10000": 0.9848228693008423, "mean_cosine-csls_knn_10-S2T-10000": 0.9847719669342041}
+INFO - 07/09/19 03:02:45 - 0:00:09 - * Best value for "precision_at_1-csls_knn_10": 7.79221
+INFO - 07/09/19 03:02:45 - 0:00:09 - * Saving the mapping to /mount/arbeitsdaten31/studenten1/R-Project/fl/SCD/semanticChangeWordEmbedding/MUSE/MUSE/dumped/debug/czijjvdf28/best_mapping.pth ...
+INFO - 07/09/19 03:02:45 - 0:00:09 - End of iteration 0.
+                                     
+                                     
+INFO - 07/09/19 03:02:45 - 0:00:09 - Starting iteration 1...
+INFO - 07/09/19 03:02:45 - 0:00:09 - Building the train dictionary ...
+INFO - 07/09/19 03:02:48 - 0:00:12 - New train dictionary of 107 pairs.
+INFO - 07/09/19 03:02:49 - 0:00:12 - Found 77 pairs of words in the dictionary (77 unique). 52 other pairs contained at least one unknown word (48 in lang1, 50 in lang2)
+INFO - 07/09/19 03:02:49 - 0:00:13 - 77 source words - nn - Precision at k = 1: 2.597403
+INFO - 07/09/19 03:02:49 - 0:00:13 - 77 source words - nn - Precision at k = 5: 5.194805
+INFO - 07/09/19 03:02:49 - 0:00:13 - 77 source words - nn - Precision at k = 10: 7.792208
+INFO - 07/09/19 03:02:49 - 0:00:13 - Found 77 pairs of words in the dictionary (77 unique). 52 other pairs contained at least one unknown word (48 in lang1, 50 in lang2)
+INFO - 07/09/19 03:02:49 - 0:00:13 - 77 source words - csls_knn_10 - Precision at k = 1: 2.597403
+INFO - 07/09/19 03:02:49 - 0:00:13 - 77 source words - csls_knn_10 - Precision at k = 5: 5.194805
+INFO - 07/09/19 03:02:49 - 0:00:13 - 77 source words - csls_knn_10 - Precision at k = 10: 9.090909
+INFO - 07/09/19 03:02:50 - 0:00:14 - Building the train dictionary ...
+INFO - 07/09/19 03:02:50 - 0:00:14 - New train dictionary of 2454 pairs.
+INFO - 07/09/19 03:02:50 - 0:00:14 - Mean cosine (nn method, S2T build, 10000 max size): 0.98674
+INFO - 07/09/19 03:02:54 - 0:00:17 - Building the train dictionary ...
+INFO - 07/09/19 03:02:54 - 0:00:17 - New train dictionary of 2454 pairs.
+INFO - 07/09/19 03:02:54 - 0:00:17 - Mean cosine (csls_knn_10 method, S2T build, 10000 max size): 0.98671
+INFO - 07/09/19 03:02:54 - 0:00:17 - __log__:{"n_iter": 1, "precision_at_1-nn": 2.5974025974025974, "precision_at_5-nn": 5.194805194805195, "precision_at_10-nn": 7.792207792207792, "precision_at_1-csls_knn_10": 2.5974025974025974, "precision_at_5-csls_knn_10": 5.194805194805195, "precision_at_10-csls_knn_10": 9.090909090909092, "mean_cosine-nn-S2T-10000": 0.986736536026001, "mean_cosine-csls_knn_10-S2T-10000": 0.9867107272148132}
+INFO - 07/09/19 03:02:54 - 0:00:17 - End of iteration 1.
+                                     
+                                     
+INFO - 07/09/19 03:02:54 - 0:00:17 - Starting iteration 2...
+INFO - 07/09/19 03:02:54 - 0:00:18 - Building the train dictionary ...
+INFO - 07/09/19 03:02:58 - 0:00:21 - New train dictionary of 153 pairs.
+INFO - 07/09/19 03:02:58 - 0:00:22 - Found 77 pairs of words in the dictionary (77 unique). 52 other pairs contained at least one unknown word (48 in lang1, 50 in lang2)
+INFO - 07/09/19 03:02:58 - 0:00:22 - 77 source words - nn - Precision at k = 1: 2.597403
+INFO - 07/09/19 03:02:58 - 0:00:22 - 77 source words - nn - Precision at k = 5: 6.493506
+INFO - 07/09/19 03:02:58 - 0:00:22 - 77 source words - nn - Precision at k = 10: 10.389610
+INFO - 07/09/19 03:02:58 - 0:00:22 - Found 77 pairs of words in the dictionary (77 unique). 52 other pairs contained at least one unknown word (48 in lang1, 50 in lang2)
+INFO - 07/09/19 03:02:58 - 0:00:22 - 77 source words - csls_knn_10 - Precision at k = 1: 2.597403
+INFO - 07/09/19 03:02:58 - 0:00:22 - 77 source words - csls_knn_10 - Precision at k = 5: 6.493506
+INFO - 07/09/19 03:02:58 - 0:00:22 - 77 source words - csls_knn_10 - Precision at k = 10: 9.090909
+INFO - 07/09/19 03:03:00 - 0:00:24 - Building the train dictionary ...
+INFO - 07/09/19 03:03:00 - 0:00:24 - New train dictionary of 2454 pairs.
+INFO - 07/09/19 03:03:00 - 0:00:24 - Mean cosine (nn method, S2T build, 10000 max size): 0.98710
+INFO - 07/09/19 03:03:03 - 0:00:27 - Building the train dictionary ...
+INFO - 07/09/19 03:03:03 - 0:00:27 - New train dictionary of 2454 pairs.
+INFO - 07/09/19 03:03:03 - 0:00:27 - Mean cosine (csls_knn_10 method, S2T build, 10000 max size): 0.98708
+INFO - 07/09/19 03:03:03 - 0:00:27 - __log__:{"n_iter": 2, "precision_at_1-nn": 2.5974025974025974, "precision_at_5-nn": 6.493506493506493, "precision_at_10-nn": 10.38961038961039, "precision_at_1-csls_knn_10": 2.5974025974025974, "precision_at_5-csls_knn_10": 6.493506493506493, "precision_at_10-csls_knn_10": 9.090909090909092, "mean_cosine-nn-S2T-10000": 0.9871032238006592, "mean_cosine-csls_knn_10-S2T-10000": 0.9870761632919312}
+INFO - 07/09/19 03:03:03 - 0:00:27 - End of iteration 2.
+                                     
+                                     
+INFO - 07/09/19 03:03:03 - 0:00:27 - Starting iteration 3...
+INFO - 07/09/19 03:03:04 - 0:00:27 - Building the train dictionary ...
+INFO - 07/09/19 03:03:06 - 0:00:30 - New train dictionary of 154 pairs.
+INFO - 07/09/19 03:03:07 - 0:00:30 - Found 77 pairs of words in the dictionary (77 unique). 52 other pairs contained at least one unknown word (48 in lang1, 50 in lang2)
+INFO - 07/09/19 03:03:07 - 0:00:31 - 77 source words - nn - Precision at k = 1: 2.597403
+INFO - 07/09/19 03:03:07 - 0:00:31 - 77 source words - nn - Precision at k = 5: 6.493506
+INFO - 07/09/19 03:03:07 - 0:00:31 - 77 source words - nn - Precision at k = 10: 10.389610
+INFO - 07/09/19 03:03:07 - 0:00:31 - Found 77 pairs of words in the dictionary (77 unique). 52 other pairs contained at least one unknown word (48 in lang1, 50 in lang2)
+INFO - 07/09/19 03:03:07 - 0:00:31 - 77 source words - csls_knn_10 - Precision at k = 1: 2.597403
+INFO - 07/09/19 03:03:07 - 0:00:31 - 77 source words - csls_knn_10 - Precision at k = 5: 5.194805
+INFO - 07/09/19 03:03:07 - 0:00:31 - 77 source words - csls_knn_10 - Precision at k = 10: 7.792208
+INFO - 07/09/19 03:03:08 - 0:00:32 - Building the train dictionary ...
+INFO - 07/09/19 03:03:08 - 0:00:32 - New train dictionary of 2454 pairs.
+INFO - 07/09/19 03:03:08 - 0:00:32 - Mean cosine (nn method, S2T build, 10000 max size): 0.98748
+INFO - 07/09/19 03:03:12 - 0:00:36 - Building the train dictionary ...
+INFO - 07/09/19 03:03:12 - 0:00:36 - New train dictionary of 2454 pairs.
+INFO - 07/09/19 03:03:12 - 0:00:36 - Mean cosine (csls_knn_10 method, S2T build, 10000 max size): 0.98746
+INFO - 07/09/19 03:03:12 - 0:00:36 - __log__:{"n_iter": 3, "precision_at_1-nn": 2.5974025974025974, "precision_at_5-nn": 6.493506493506493, "precision_at_10-nn": 10.38961038961039, "precision_at_1-csls_knn_10": 2.5974025974025974, "precision_at_5-csls_knn_10": 5.194805194805195, "precision_at_10-csls_knn_10": 7.792207792207792, "mean_cosine-nn-S2T-10000": 0.9874804019927979, "mean_cosine-csls_knn_10-S2T-10000": 0.9874551296234131}
+INFO - 07/09/19 03:03:12 - 0:00:36 - End of iteration 3.
+                                     
+                                     
+INFO - 07/09/19 03:03:12 - 0:00:36 - Starting iteration 4...
+INFO - 07/09/19 03:03:12 - 0:00:36 - Building the train dictionary ...
+INFO - 07/09/19 03:03:16 - 0:00:40 - New train dictionary of 169 pairs.
+INFO - 07/09/19 03:03:16 - 0:00:40 - Found 77 pairs of words in the dictionary (77 unique). 52 other pairs contained at least one unknown word (48 in lang1, 50 in lang2)
+INFO - 07/09/19 03:03:16 - 0:00:40 - 77 source words - nn - Precision at k = 1: 3.896104
+INFO - 07/09/19 03:03:16 - 0:00:40 - 77 source words - nn - Precision at k = 5: 5.194805
+INFO - 07/09/19 03:03:16 - 0:00:40 - 77 source words - nn - Precision at k = 10: 6.493506
+INFO - 07/09/19 03:03:16 - 0:00:40 - Found 77 pairs of words in the dictionary (77 unique). 52 other pairs contained at least one unknown word (48 in lang1, 50 in lang2)
+INFO - 07/09/19 03:03:17 - 0:00:41 - 77 source words - csls_knn_10 - Precision at k = 1: 2.597403
+INFO - 07/09/19 03:03:17 - 0:00:41 - 77 source words - csls_knn_10 - Precision at k = 5: 5.194805
+INFO - 07/09/19 03:03:17 - 0:00:41 - 77 source words - csls_knn_10 - Precision at k = 10: 7.792208
+INFO - 07/09/19 03:03:18 - 0:00:42 - Building the train dictionary ...
+INFO - 07/09/19 03:03:18 - 0:00:42 - New train dictionary of 2454 pairs.
+INFO - 07/09/19 03:03:18 - 0:00:42 - Mean cosine (nn method, S2T build, 10000 max size): 0.98782
+INFO - 07/09/19 03:03:22 - 0:00:46 - Building the train dictionary ...
+INFO - 07/09/19 03:03:22 - 0:00:46 - New train dictionary of 2454 pairs.
+INFO - 07/09/19 03:03:22 - 0:00:46 - Mean cosine (csls_knn_10 method, S2T build, 10000 max size): 0.98780
+INFO - 07/09/19 03:03:22 - 0:00:46 - __log__:{"n_iter": 4, "precision_at_1-nn": 3.896103896103896, "precision_at_5-nn": 5.194805194805195, "precision_at_10-nn": 6.493506493506493, "precision_at_1-csls_knn_10": 2.5974025974025974, "precision_at_5-csls_knn_10": 5.194805194805195, "precision_at_10-csls_knn_10": 7.792207792207792, "mean_cosine-nn-S2T-10000": 0.9878199100494385, "mean_cosine-csls_knn_10-S2T-10000": 0.9877999424934387}
+INFO - 07/09/19 03:03:22 - 0:00:46 - End of iteration 4.
+                                     
+                                     
+INFO - 07/09/19 03:03:22 - 0:00:46 - Starting iteration 5...
+INFO - 07/09/19 03:03:22 - 0:00:46 - Building the train dictionary ...
+INFO - 07/09/19 03:03:25 - 0:00:49 - New train dictionary of 186 pairs.
+INFO - 07/09/19 03:03:26 - 0:00:49 - Found 77 pairs of words in the dictionary (77 unique). 52 other pairs contained at least one unknown word (48 in lang1, 50 in lang2)
+INFO - 07/09/19 03:03:26 - 0:00:50 - 77 source words - nn - Precision at k = 1: 2.597403
+INFO - 07/09/19 03:03:26 - 0:00:50 - 77 source words - nn - Precision at k = 5: 5.194805
+INFO - 07/09/19 03:03:26 - 0:00:50 - 77 source words - nn - Precision at k = 10: 6.493506
+INFO - 07/09/19 03:03:26 - 0:00:50 - Found 77 pairs of words in the dictionary (77 unique). 52 other pairs contained at least one unknown word (48 in lang1, 50 in lang2)
+INFO - 07/09/19 03:03:26 - 0:00:50 - 77 source words - csls_knn_10 - Precision at k = 1: 2.597403
+INFO - 07/09/19 03:03:26 - 0:00:50 - 77 source words - csls_knn_10 - Precision at k = 5: 5.194805
+INFO - 07/09/19 03:03:26 - 0:00:50 - 77 source words - csls_knn_10 - Precision at k = 10: 7.792208
+INFO - 07/09/19 03:03:28 - 0:00:51 - Building the train dictionary ...
+INFO - 07/09/19 03:03:28 - 0:00:51 - New train dictionary of 2454 pairs.
+INFO - 07/09/19 03:03:28 - 0:00:52 - Mean cosine (nn method, S2T build, 10000 max size): 0.98799
+INFO - 07/09/19 03:03:31 - 0:00:55 - Building the train dictionary ...
+INFO - 07/09/19 03:03:31 - 0:00:55 - New train dictionary of 2454 pairs.
+INFO - 07/09/19 03:03:31 - 0:00:55 - Mean cosine (csls_knn_10 method, S2T build, 10000 max size): 0.98797
+INFO - 07/09/19 03:03:31 - 0:00:55 - __log__:{"n_iter": 5, "precision_at_1-nn": 2.5974025974025974, "precision_at_5-nn": 5.194805194805195, "precision_at_10-nn": 6.493506493506493, "precision_at_1-csls_knn_10": 2.5974025974025974, "precision_at_5-csls_knn_10": 5.194805194805195, "precision_at_10-csls_knn_10": 7.792207792207792, "mean_cosine-nn-S2T-10000": 0.9879887700080872, "mean_cosine-csls_knn_10-S2T-10000": 0.9879700541496277}
+INFO - 07/09/19 03:03:31 - 0:00:55 - End of iteration 5.
+                                     
+                                     
+INFO - 07/09/19 03:03:31 - 0:00:55 - * Reloading the best model from /mount/arbeitsdaten31/studenten1/R-Project/fl/SCD/semanticChangeWordEmbedding/MUSE/MUSE/dumped/debug/czijjvdf28/best_mapping.pth ...
+INFO - 07/09/19 03:03:31 - 0:00:55 - Reloading all embeddings for mapping ...
+INFO - 07/09/19 03:03:32 - 0:00:56 - Loaded binary model. Generating embeddings ...
+INFO - 07/09/19 03:03:32 - 0:00:56 - Generated embeddings for 2454 words.
+INFO - 07/09/19 03:03:33 - 0:00:57 - Loaded binary model. Generating embeddings ...
+INFO - 07/09/19 03:03:33 - 0:00:57 - Generated embeddings for 1658 words.
+INFO - 07/09/19 03:03:33 - 0:00:57 - Map source embeddings to the target space ...
+INFO - 07/09/19 03:03:33 - 0:00:57 - Writing source embeddings to /mount/arbeitsdaten31/studenten1/R-Project/fl/SCD/semanticChangeWordEmbedding/MUSE/MUSE/dumped/debug/czijjvdf28/vectors-17.txt ...
+INFO - 07/09/19 03:03:35 - 0:00:59 - Writing target embeddings to /mount/arbeitsdaten31/studenten1/R-Project/fl/SCD/semanticChangeWordEmbedding/MUSE/MUSE/dumped/debug/czijjvdf28/vectors-18.txt ...
