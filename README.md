@@ -7,12 +7,14 @@ Create Embedding:
 =======================================
 
 Fasttext: https://github.com/facebookresearch/fastText
+
 Create fasttext embeddings using t1.txt and t2.txt, use embeddings/fasttext_model.py
 
 Allignment:
 =======================================
 
 MUSE: https://github.com/facebookresearch/MUSE
+
 pre-req: MUSE and monolingual and cross-lingual word embeddings evaluation datasets(See MUSE readme).
 
 Supervised allignment: 
@@ -31,4 +33,6 @@ Visualization and distance calculation:
 =======================================
 
 Run SemanticChangeVisualization.ipynb
+
+![alt text](download.png)
 
