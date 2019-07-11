@@ -45,7 +45,7 @@ Visualization and distance calculation:
 Run     SemanticChangeVisualization.ipynb
 
         Gott	0.026482201957045093
-        und	0.025998903087178227
+        und     0.025998903087178227
         haben	0.06170463837681728
         göttlich	0.09342388481358099
 
