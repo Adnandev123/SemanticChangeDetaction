@@ -7,7 +7,7 @@ Fasttext: https://github.com/facebookresearch/fastText
 
 MUSE: https://github.com/facebookresearch/MUSE
 
-(If you want to skip the training part, use resources in this folder https://drive.google.com/open?id=1goxYtiKsj-s4ax27L7sWefpyoDaw36TP  and directy go to the visualization section)
+(If you want to skip the training part, unzip and use resources in d512supervised/ folder)
 
 
 Preprocessing:
