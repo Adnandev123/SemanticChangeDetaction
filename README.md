@@ -30,14 +30,14 @@ using a train bilingual dictionary (or identical character strings as anchor poi
 
 Command:
 
-    python3 MUSE/supervised.py --src_lang 17 --tgt_lang 18 --src_emb t1.bin --tgt_emb t2.bin --n_refinement 5 --dico_train dictionary.txt --cuda False --emb_dim 100 --dico_eval dictionary.txt
+    python3 MUSE/supervised.py --src_lang 17 --tgt_lang 18 --src_emb t1.bin --tgt_emb t2.bin --n_refinement 5 --dico_train dictionary.txt --cuda False --emb_dim 512 --dico_eval dictionary.txt
 
 Unsupervised allignment: 
 without any parallel data or anchor point, learn a mapping from the source to the target space using adversarial training and (iterative) Procrustes refinement.
 
 Command:
 
-    python3 MUSE/unsupervised.py --src_lang 17 --tgt_lang 18 --src_emb t1.bin --tgt_emb t2.bin --n_refinement 5 --cuda False --emb_dim 100 --dico_eval dictionary.txt
+    python3 MUSE/unsupervised.py --src_lang 17 --tgt_lang 18 --src_emb t1.bin --tgt_emb t2.bin --n_refinement 5 --cuda False --emb_dim 512 --dico_eval dictionary.txt
 
 Visualization and distance calculation:
 =======================================
