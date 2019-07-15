@@ -10,15 +10,10 @@ MUSE: https://github.com/facebookresearch/MUSE
 (If you want to skip the training part, download and unzip the pretrained embeddings and pretrained models frome here: https://drive.google.com/open?id=1goxYtiKsj-s4ax27L7sWefpyoDaw36TP )
 
 
-Preprocessing:
-=======================================
-Created two corpus of two time domain using corpus data, t1.txt (1700) and t2.txt (1800).
-
-
 Create Embedding:
 =======================================
 
-Create fasttext embeddings using t1.txt and t2.txt, use embeddings/fasttext_model.py
+Create fasttext embeddings using dta18.txt (1800) and dta19.txt (1900), use fasttext_model.py
 
 Allignment:
 =======================================
@@ -42,7 +37,7 @@ Command:
 Visualization and distance calculation:
 =======================================
 
-Run     SemanticChangeVisualization.ipynb
+Run     distance.py
 
         Anstalt	0.5013280902314663
         Anstellung	0.507780886911848
@@ -65,5 +60,6 @@ Run     SemanticChangeVisualization.ipynb
         Abend	0.31869102668259386
 
 ![results visualization for Dimention 512 unsupervised alignment](distance.jpg)
-results visualization for Dimention 512 unsupervised alignment
+
+Fig: Results visualization for Dimention 512 unsupervised alignment
 
