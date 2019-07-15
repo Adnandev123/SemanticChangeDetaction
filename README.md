@@ -7,7 +7,7 @@ Fasttext: https://github.com/facebookresearch/fastText
 
 MUSE: https://github.com/facebookresearch/MUSE
 
-(If you want to skip the training part, unzip and use resources in d512supervised/ folder)
+(If you want to skip the training part, download and unzip the pretrained embeddings and pretrained models frome here: https://drive.google.com/open?id=1goxYtiKsj-s4ax27L7sWefpyoDaw36TP )
 
 
 Preprocessing:
@@ -44,10 +44,26 @@ Visualization and distance calculation:
 
 Run     SemanticChangeVisualization.ipynb
 
-        Gott	0.026482201957045093
-        und     0.025998903087178227
-        haben	0.06170463837681728
-        göttlich	0.09342388481358099
+        Anstalt	0.5013280902314663
+        Anstellung	0.507780886911848
+        Bilanz	0.5950476413659643
+        billig	0.5644998547387627
+        Donnerwetter	0.4577280999192952
+        englisch	0.46238426270264255
+        Feder	0.5277356027146054
+        Feine	0.5720351157943221
+        geharnischt	0.597379202524812
+        locker	0.411954522526508
+        Motiv	0.7712048689283667
+        Museum	0.4408447676985502
+        packen	0.44903838213647584
+        Presse	0.6272148963016022
+        Reichstag	0.36420825998625206
+        technisch	0.6834874266214862
+        Vorwort	0.7404966314316774
+        Zufall	0.4843775604046865
+        Abend	0.31869102668259386
 
-![alt text](download.png)
+![results visualization for Dimention 512 unsupervised alignment](distance.jpg)
+results visualization for Dimention 512 unsupervised alignment
 
